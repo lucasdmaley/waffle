@@ -4,7 +4,7 @@ import WaffleColumn from "../WaffleColumn/WaffleColumn";
 import useWindowDimensions from "../../hooks/useWindowDimensions";
 
 
-export default function Waffle(props) {
+export default function Waffle() {
     const { height, width } = useWindowDimensions();
     
     //determines number of columns waffle should have
@@ -16,12 +16,12 @@ export default function Waffle(props) {
     
     return (
         <div className="waffle" style={{ "width": w + "vh" }}>
-            <WaffleColumn visible={columns >= 0} click={props.click}/>
-            <WaffleColumn visible={columns > 1} click={props.click}/>
-            <WaffleColumn visible={columns > 2} click={props.click}/>
-            <WaffleColumn visible={columns > 3} click={props.click}/>
-            <WaffleColumn visible={columns > 4} click={props.click}/>
-            <WaffleColumn visible={columns > 5} click={props.click}/>
+            <WaffleColumn visible={columns >= 0} />
+            <WaffleColumn visible={columns > 1} />
+            <WaffleColumn visible={columns > 2} />
+            <WaffleColumn visible={columns > 3} />
+            <WaffleColumn visible={columns > 4} />
+            <WaffleColumn visible={columns > 5} />
             <div className="rightEdge" />
         </div>
     )
