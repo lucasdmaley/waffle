@@ -7,10 +7,10 @@ function fillErUp() {
 
 export default function WaffleSquare() {
     
-    const [ fillLevel, setFillLevel] = useState(16);
+    let [ fillLevel, setFillLevel] = useState(16);
     
-    if (fillLevel >= 20) {
-        fillLevel = 20;
+    if (fillLevel >= 19) {
+        fillLevel = 19;
     } 
     
     return (
