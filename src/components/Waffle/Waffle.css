@@ -1,0 +1,11 @@
+
+.waffle {
+    display: flex;
+    min-height: 100vh;
+    background-color: #FBDEA7;
+}
+
+.rightEdge {
+    width: 4vh;
+    background-color: #FBDEA7;
+}

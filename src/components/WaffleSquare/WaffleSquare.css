@@ -1,0 +1,34 @@
+
+.square {
+    background-color: #FFCF71; 
+    height: 20vh;
+    width: 20vh;
+    margin-top: 4vh;
+    margin-left: 4vh;
+}
+
+.topShadow {
+    position: absolute;
+    height: 3vh;
+    width: 20vh;
+    background-color: #FFC046; 
+}
+
+.leftShadow {
+    position: absolute;
+    height: 20vh;
+    width: 3vh;
+    background-color: #FFC046; 
+}
+
+.syrup {
+    position: relative;
+    background-color: #E79B0A;
+}
+
+.overflow {
+    background-color: #E79B0A; 
+    height: 28vh;
+    width: 28vh;
+    position: fixed;
+}
