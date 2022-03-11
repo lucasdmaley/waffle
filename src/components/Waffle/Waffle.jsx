@@ -10,7 +10,7 @@ export default function Waffle(props) {
     //determines number of columns waffle should have
     let columns = parseInt((width / height * 100 - 4) / 24);
     columns = (columns == 0 ? 1 : columns);
-    columns = (columns > 6 ? 5 : columns);
+    columns = (columns > 6 ? 6 : columns);
     
     const w = columns * 24 + 4;
     

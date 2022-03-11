@@ -25,10 +25,3 @@
     position: relative;
     background-color: #E79B0A;
 }
-
-.overflow {
-    background-color: #E79B0A; 
-    height: 28vh;
-    width: 28vh;
-    position: fixed;
-}
