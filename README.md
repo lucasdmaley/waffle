@@ -1,9 +1,15 @@
+# Waffl
+
 A waffle which you can fill with syrup square-by-square, with just a simple click. 
 Hosted at www.belgianwaffl.com
 
 See below for development information:
 
-# Getting Started with Create React App
+
+
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
