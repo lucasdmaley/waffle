@@ -1,3 +1,4 @@
+A waffle which you can fill with syrup square-by-square, with just a simple click. 
 Hosted at www.belgianwaffl.com
 
 See below for development information:
